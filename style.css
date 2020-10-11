@@ -1,0 +1,108 @@
+#img1
+{
+  border-radius: 20%;
+  height: 250px;
+  float: left;
+  width:80%;
+}
+#img2
+{
+  border-radius: 20%;
+  height: 250px;
+  float: right;
+  width:80%;
+}
+#b1,#c1
+{
+	width:30%;
+	height:30%;
+}
+#b
+{
+	width:90%;
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20%;
+}
+#c
+{
+	height:30%;
+	width:90%;
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#b2,#c2
+{
+  margin:0.2%;
+  width:69%;
+  font-size:23px;
+  background: #ff66cc;
+    border-style: inset;
+    border-color: green;
+  border-top-width: 8px;
+  padding: 0.45%;
+  border-bottom-width: 8px;
+  border-left-width: 13px;
+  border-right-width: 13px;
+}
+#b1
+{
+	float:left;
+}
+#c1
+{
+	float:right;
+}
+#b2
+{
+	float:right;
+}
+#c2
+{
+	float:left;
+}
+#backedu
+{
+	background-color: red;
+	background-image: url("5.jpg");
+}
+.main-container {
+    margin: 5% 5% 5% 5%;
+    align-content: center;
+}
+.imgself1{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    float: left;
+}
+.imgself{
+    height: 300px;
+}
+.intro-div {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2% 2% 2% 2%;
+    width: 60%;
+    float: left;
+    text-align: justify;
+}
+#indexpage
+{
+	background-image: url("3.jpg");
+}
+#edubody
+{
+	background-image: url("5.jpg");
+}
+#conbody
+{
+	background-image: url("4.png");
+	background-size: 100% 140%;
+}
+.img1
+{
+	opacity: 0.20;
+}

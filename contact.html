@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body id="conbody">
+    <div>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="education.html"><span class="glyphicon glyphicon-education"></span> Projects</a></li>
+            <li class="active"><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a><font size="6" face="Brush Script MT, Brush Script Std, cursive">Karan Bhut</font></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <br><br><br>
+    <h1 align="center">Contact Us</h1>  <br />
+    <form name='reg' onSubmit="return formValidation();" action="" method="post">  
+      <table align="center" border="0" bgcolor="#FFFF99" cellpadding="30px" cellspacing="30px" width="500px" height="400px" >
+    <tr> 
+    <td><b> First Name:</b> </td>
+    <td><input type="text" name="username" size="30" /></td>  
+    </tr>
+
+    <tr> 
+    <td><b> last Name: </b></td>
+    <td><input type="text" name="lastname" size="30" /></td>  
+    </tr>
+
+    <tr>
+    <td><b>Password: </b></td>
+    <td><input type="password" name="pass" size="30" /></td>
+    </tr>
+
+    <tr> 
+    <td><b>Confirm Password:</b></td> 
+    <td><input type="password" name="copass" size="30" /></td>
+    </tr> 
+
+
+    <tr> 
+    <td><b>Email:</b></td>
+    <td><input type="text" name="email" size="30" />  </td>
+    </tr>
+
+    <tr>   
+    <td><b>Mobile No:</b></td>
+    <td><input type="text" name="mob" size="30" /> </td> 
+    </tr>
+
+    <tr> 
+    <td><b>Country:</b></td>
+    <td><select name="country">  
+    <option selected="" value="Default">(Please select a country)</option>  
+    <option value="AF">Australia</option>  
+    <option value="AL">Canada</option>  
+    <option value="DZ">India</option>  
+    <option value="AS">Russia</option>  
+    <option value="AD">USA</option>  
+    </select> </td>
+    </tr>
+
+    <tr> 
+    <td><b>Gender:</b></td>
+    <td><input type="radio" name="gen" value="Male" />Male  
+    <input type="radio" name="gen" value="Female" />Female  </td>
+    </tr>
+
+    <tr> 
+    <td> </td>
+    <td><input type="submit" name="submit" value="Submit" />  
+    </td>
+    </tr>
+    </table>
+    </form>  
+
+  </body>
+</html>
