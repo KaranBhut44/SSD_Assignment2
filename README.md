@@ -1,3 +1,4 @@
+# Question pdf link: https://github.com/KaranBhut44/SSD_Assignment2/blob/main/Assignment2.pdf
 # GitHub pages link: https://karanbhut44.github.io/SSD_Assignment2/
 # index.html
  - Contains photograph and Introduction details
