@@ -1,3 +1,4 @@
+# GitHub pages link: https://karanbhut44.github.io/SSD_Assignment2/
 # index.html
  - Contains photograph and Introduction details
  - Used `nav` tag to create menu.
